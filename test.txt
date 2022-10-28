@@ -1,0 +1,10 @@
+git status            查看仓库的状态
+git init                 初始化Git仓库
+git add test.txt    将文件添加到临时缓冲区
+git commit  -m  "text  commit"     将文件提交到仓库
+git  log                 打印Git仓库提交日志
+
+ssh-keygen  -t  rsa    三次回车，C盘usr的.shh文件（-key无空格）
+
+github上传代码步骤：
+git  clone  复制的地址     如果报错了    就是因为使用了proxy代理，要取消代理   git config --global --unset https.proxy
